@@ -3,7 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Brenda Alencar — Psicóloga</title>
+  <title>Brenda Alencar — Psicóloga Clínica | Porto Alegre e Online</title>
+  <meta name="description" content="Psicóloga clínica em Porto Alegre e online para todo o Brasil. Especialista em Terapia do Esquema (TE), DBT e TCC. Atendimento de ansiedade, desregulação emocional e dificuldades nos relacionamentos. CRP 07/45657." />
+  <meta property="og:title" content="Brenda Alencar — Psicóloga Clínica" />
+  <meta property="og:description" content="Psicóloga clínica em Porto Alegre e online. Especialista em Terapia do Esquema, DBT e TCC. Atendimento humanizado com base científica. CRP 07/45657." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/IMG_6057_web.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23550000'/><text x='16' y='23' text-anchor='middle' font-family='Georgia,serif' font-size='20' font-weight='600' fill='white'>B</text></svg>">
+
+  <!-- Canonical — atualizar com o domínio real ao publicar -->
+  <link rel="canonical" href="https://brendaalencar.com.br/" />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["Person", "LocalBusiness"],
+    "name": "Brenda Alencar",
+    "jobTitle": "Psicóloga Clínica",
+    "description": "Psicóloga clínica especialista em TCC, Terapia do Esquema e DBT. Atendimento presencial em Porto Alegre e online para todo o Brasil. CRP 07/45657.",
+    "telephone": "+5551982452480",
+    "email": "brendalencarpsi@gmail.com",
+    "sameAs": ["https://www.instagram.com/psi.brendaalencar"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Avenida Iguassu, 418",
+      "addressLocality": "Porto Alegre",
+      "addressRegion": "RS",
+      "addressCountry": "BR"
+    },
+    "areaServed": "Brasil",
+    "knowsAbout": ["Terapia Cognitivo-Comportamental", "Terapia do Esquema", "DBT", "Ansiedade", "Desregulação Emocional", "Relacionamentos"]
+  }
+  </script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,11 +54,12 @@
 
 <!-- ══ NAV ══ -->
 <nav id="nav">
-  <a class="nav-logo" href="#">Brenda Alencar</a>
+  <a class="nav-logo" href="#" style="text-transform:uppercase;letter-spacing:.12em;">Brenda Alencar</a>
   <ul class="nav-links">
     <li><a href="#sobre">Sobre</a></li>
     <li><a href="#servicos">Serviços</a></li>
     <li><a href="#abordagem">Abordagem</a></li>
+    <li><a href="#faq">FAQ</a></li>
     <li><a href="#contato" class="nav-cta">Agendar</a></li>
   </ul>
   <button class="hamburger" id="hbg" aria-label="Abrir menu">
@@ -37,6 +72,7 @@
   <a href="#sobre"     onclick="closeDrawer()">Sobre</a>
   <a href="#servicos"  onclick="closeDrawer()">Serviços</a>
   <a href="#abordagem" onclick="closeDrawer()">Abordagem</a>
+  <a href="#faq"       onclick="closeDrawer()">FAQ</a>
   <a href="#contato"   onclick="closeDrawer()">Contato</a>
 </div>
 
@@ -48,15 +84,15 @@
   <div class="hero-deco-ring" style="width:100px;height:100px;left:4%;bottom:18%;background:rgba(201,164,106,.07)"></div>
 
   <div class="hero-content fu">
-    <div class="eyebrow-line">CRP 07/00000 · Psicóloga Clínica</div>
+    <div class="eyebrow-line">CRP 07/45657 · Psicóloga Clínica · Porto Alegre, RS</div>
     <h1 class="hero-h1">
-      Um espaço para<br>
-      cuidar da sua<br>
-      <em>saúde mental.</em>
+      Quando as emoções<br>
+      pesam mais do que<br>
+      <em>você consegue carregar.</em>
     </h1>
     <p class="hero-sub">
       Atendimento psicológico humanizado, presencial em Porto Alegre e
-      online para todo o Brasil. Dê o primeiro passo.
+      online para todo o Brasil e para brasileiros no exterior. Dê o primeiro passo.
     </p>
     <div class="hero-actions">
       <a href="#contato" class="btn btn-primary">Agendar Consulta</a>
@@ -64,18 +100,18 @@
     </div>
     <div class="trust">
       <div class="trust-item">
-        <span class="t-num">5+</span>
-        <span class="t-label">Anos de<br>experiência</span>
+        <span class="t-num">TE</span>
+        <span class="t-label">Padrões emocionais<br>profundos</span>
       </div>
       <div class="t-divider"></div>
       <div class="trust-item">
-        <span class="t-num">200+</span>
-        <span class="t-label">Pacientes<br>atendidos</span>
+        <span class="t-num">DBT</span>
+        <span class="t-label">Regulação de<br>emoções intensas</span>
       </div>
       <div class="t-divider"></div>
       <div class="trust-item">
-        <span class="t-num">Online</span>
-        <span class="t-label">Para todo<br>o Brasil</span>
+        <span class="t-num">TCC</span>
+        <span class="t-label">Pensamentos<br>e comportamentos</span>
       </div>
     </div>
   </div>
@@ -83,21 +119,15 @@
   <div class="hero-visual fu">
     <div style="position:relative">
       <div class="photo-frame">
-        <div class="photo-placeholder">
-          <svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#550000" stroke-width="1">
-            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-            <circle cx="12" cy="7" r="4"/>
-          </svg>
-          <span>Sua foto aqui</span>
-        </div>
+        <img src="assets/images/IMG_6057_web.jpg" alt="Brenda Alencar" style="width:100%;height:100%;object-fit:cover;display:block;image-orientation:from-image;" />
       </div>
       <div class="f-deco-1"></div>
       <div class="f-deco-2"></div>
       <div class="f-badge">
         <div class="dot-live"></div>
         <div class="badge-txt">
-          <strong>Agendamento aberto</strong>
-          <span>Sessões disponíveis</span>
+          <strong>Agenda aberta</strong>
+          <span>Vagas disponíveis esta semana</span>
         </div>
       </div>
     </div>
@@ -108,36 +138,49 @@
 <section id="sobre">
   <div class="sobre-grid">
     <div class="sobre-img-wrap fu">
-      <div class="sobre-img">Foto profissional</div>
-      <div class="sobre-badge"><b>5+</b><small>anos</small></div>
+      <div class="sobre-img" style="background:none;overflow:hidden;padding:0;">
+        <img src="assets/images/IMG_6070_web.jpg" alt="Brenda Alencar" style="width:100%;height:100%;object-fit:cover;display:block;image-orientation:from-image;" />
+      </div>
     </div>
     <div class="fu">
       <div class="eyebrow">Quem sou eu</div>
       <h2 class="st">Uma psicóloga <em>comprometida</em> com você</h2>
       <div class="sobre-body" style="margin-top:1.5rem">
         <p>
-          Olá! Sou <strong>Ana Lima</strong>, psicóloga clínica formada pela
-          <strong>Universidade Federal do Rio Grande do Sul (UFRGS)</strong>,
-          com especialização em Terapia Cognitivo-Comportamental.
+          Se você chegou até aqui, talvez esteja carregando algo que pesa há tempo
+          demais — uma ansiedade que não passa, emoções que transbordam, relações que
+          machucam, ou simplesmente a sensação de que a vida poderia ser muito mais
+          leve. <strong>Você não precisa carregar isso sozinho.</strong>
         </p>
         <p>
-          Acredito que cada pessoa carrega uma história única e merece um espaço
-          seguro para explorá-la. Minha prática é baseada na escuta empática e
-          em evidências científicas.
+          Sou psicóloga clínica formada pela <strong>Pontifícia Universidade Católica
+          do Rio Grande do Sul (PUCRS)</strong>, com experiência no atendimento de
+          adolescentes, adultos e idosos. Atualmente, me aprofundo como pós-graduanda
+          em Terapia Cognitivo-Comportamental pela PUCRS e atuo como colaboradora de
+          pesquisa no <strong>Grupo de Avaliação e Atendimento em Psicoterapia
+          Cognitivo-Comportamental (GAAPCC)</strong>, o que me mantém em constante estudo.
         </p>
         <p>
-          Atendo adultos e adolescentes com questões como
-          <strong>ansiedade, depressão, relacionamentos, autoestima e
-          desenvolvimento pessoal</strong>.
+          Trabalho com as <strong>Terapias Cognitivo-Comportamentais</strong>, abordagem
+          reconhecida mundialmente por sua eficácia e base científica. Por meio dela,
+          ajudo pessoas a compreenderem seus pensamentos, emoções e comportamentos,
+          e a transformarem padrões que causam sofrimento em caminhos para uma vida
+          que valha a pena ser vivida.
+        </p>
+        <p>
+          Ao longo da minha trajetória, desenvolvi experiência no atendimento de quadros
+          de <strong>ansiedade, fobia específica, desregulação emocional intensa e
+          dificuldades nos relacionamentos</strong>, condições que impactam profundamente
+          o dia a dia e que, com o suporte adequado, podem ser transformadas.
         </p>
         <div class="chips">
-          <span class="chip">TCC</span>
           <span class="chip">Ansiedade</span>
-          <span class="chip">Depressão</span>
-          <span class="chip">Autoestima</span>
-          <span class="chip">Relacionamentos</span>
-          <span class="chip">Luto</span>
-          <span class="chip">Desenvolvimento Pessoal</span>
+          <span class="chip">Fobia Específica</span>
+          <span class="chip">Desregulação Emocional</span>
+          <span class="chip">Dificuldades nos Relacionamentos</span>
+          <span class="chip">Adolescentes</span>
+          <span class="chip">Adultos</span>
+          <span class="chip">Idosos</span>
         </div>
         <div style="margin-top:2rem">
           <a href="#contato" class="btn btn-primary">Agendar minha consulta</a>
@@ -156,23 +199,53 @@
   </div>
   <div class="cards">
     <div class="card fu">
-      <div class="card-ico">🌿</div>
       <h3>Psicoterapia Individual</h3>
-      <p>Sessões focadas em autoconhecimento, superação de desafios emocionais e construção de uma vida mais equilibrada e significativa.</p>
-      <a href="#contato" class="card-cta">Saiba mais</a>
+      <p>Um espaço só seu, sem julgamentos, onde sua história é ouvida com cuidado genuíno. Caminhamos juntos no seu ritmo, transformando o que pesa em caminhos para uma vida mais leve e significativa.</p>
+      <a href="#contato" class="card-cta">Agendar sessão</a>
     </div>
     <div class="card fu">
-      <div class="card-ico">💻</div>
-      <h3>Atendimento Online</h3>
-      <p>Sessões por videochamada para todo o Brasil, com a mesma qualidade e acolhimento do atendimento presencial, onde você estiver.</p>
-      <a href="#contato" class="card-cta">Saiba mais</a>
+      <h3>Atendimento Presencial e Online</h3>
+      <p>Não importa onde você esteja, o cuidado chega até você. As sessões online acontecem por videochamada com a mesma escuta atenta, sigilo e acolhimento do presencial. Tudo que você precisa é de um lugar tranquilo e uma conexão de internet.</p>
+      <p>Para quem prefere o encontro presencial, ofereço atendimento em consultório na <strong>Avenida Iguassu, 418 — bairro Petrópolis, Porto Alegre</strong> — um espaço pensado para que você se sinta à vontade, seguro e acolhido desde o primeiro momento.</p>
+      <a href="#contato" class="card-cta">Agendar sessão</a>
     </div>
     <div class="card fu">
-      <div class="card-ico">✨</div>
       <h3>Primeira Consulta</h3>
-      <p>Uma sessão inicial para conhecermos suas necessidades, esclarecer dúvidas sobre o processo terapêutico e avaliar como posso ajudar.</p>
-      <a href="#contato" class="card-cta">Agendar</a>
+      <p>Dar o primeiro passo é o mais importante e ele começa aqui. Na primeira consulta, nos conhecemos, você conta o que te trouxe até mim e juntos entendemos como posso te ajudar.</p>
+      <a href="https://wa.me/5551982452480?text=Olá%2C+gostaria+de+agendar+uma+consulta." target="_blank" class="card-cta">Quero dar o primeiro passo</a>
     </div>
+  </div>
+</section>
+
+<!-- ══ COMO FUNCIONA ══ -->
+<section id="como-funciona">
+  <div style="margin-bottom:3rem;text-align:center;" class="fu">
+    <div class="eyebrow" style="justify-content:center;">O processo</div>
+    <h2 class="st">Como <em>funciona</em></h2>
+    <p class="sdesc" style="margin:.9rem auto 0;text-align:center;">Do primeiro contato ao início da sua jornada em três passos simples.</p>
+  </div>
+  <div class="steps">
+    <div class="step fu">
+      <div class="step-num">01</div>
+      <div class="step-line"></div>
+      <h3>Entre em contato</h3>
+      <p>Mande uma mensagem pelo WhatsApp. Responderei pessoalmente para entendermos sua demanda e combinarmos um horário que funcione para você.</p>
+    </div>
+    <div class="step fu">
+      <div class="step-num">02</div>
+      <div class="step-line"></div>
+      <h3>Primeira consulta</h3>
+      <p>Nos conhecemos, você compartilha o que te trouxe e juntos avaliamos como a terapia pode te ajudar. Um espaço sem julgamentos e sem compromisso.</p>
+    </div>
+    <div class="step fu">
+      <div class="step-num">03</div>
+      <div class="step-line"></div>
+      <h3>Início do processo</h3>
+      <p>Definimos frequência, objetivos e começamos a jornada terapêutica no seu ritmo, em direção a uma vida que valha a pena ser vivida.</p>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:3rem;" class="fu">
+    <a href="https://wa.me/5551982452480?text=Olá%2C+gostaria+de+agendar+uma+consulta." target="_blank" class="btn btn-primary">Quero começar agora</a>
   </div>
 </section>
 
@@ -181,40 +254,48 @@
   <div class="abordagem-layout">
     <div class="fu">
       <div class="eyebrow">Como trabalho</div>
-      <h2 class="st">Uma abordagem <em>humanizada</em> e baseada em evidências</h2>
+      <h2 class="st">Base científica, <em>olhar humano</em></h2>
       <div class="abordagem-text" style="margin-top:1.5rem">
         <p>
-          Utilizo a <strong>Terapia Cognitivo-Comportamental (TCC)</strong> como
-          base principal — uma abordagem amplamente reconhecida pela ciência, que
-          nos ajuda a identificar e transformar padrões de pensamento e
-          comportamento que causam sofrimento.
+          Trabalho com três abordagens complementares, todas com sólida base científica:
         </p>
         <p>
-          Cada processo terapêutico é único. Adapto minhas técnicas às
-          necessidades de cada pessoa, sempre respeitando seu ritmo e
-          particularidades.
+          A <strong>Terapia Cognitivo-Comportamental (TCC)</strong> nos ajuda a identificar
+          e transformar padrões de pensamento e comportamento que alimentam o sofrimento —
+          é uma das abordagens mais estudadas e validadas da psicologia mundial.
+        </p>
+        <p>
+          A <strong>Terapia do Esquema (TE)</strong> aprofunda esse trabalho nos padrões
+          emocionais mais enraizados, aqueles que se formaram na infância e continuam
+          influenciando relações e escolhas na vida adulta.
+        </p>
+        <p>
+          A <strong>Terapia Comportamental Dialética (DBT)</strong> é especialmente
+          eficaz para quem vivencia emoções muito intensas — oferece ferramentas práticas
+          para regular o que parece incontrolável e construir uma vida que valha a pena
+          ser vivida.
         </p>
         <a href="#contato" class="btn btn-gold" style="margin-top:1.4rem">
-          Começar minha jornada
+          Agendar minha primeira sessão
         </a>
       </div>
     </div>
     <div class="pillars fu">
       <div class="pillar">
         <span class="p-num">01</span>
-        <div class="p-info"><h4>Acolhimento sem julgamento</h4><p>Espaço seguro para se expressar livremente</p></div>
+        <div class="p-info"><h4>Identificação de padrões</h4><p>Entendemos juntos o que alimenta o sofrimento</p></div>
       </div>
       <div class="pillar">
         <span class="p-num">02</span>
-        <div class="p-info"><h4>Escuta ativa e empática</h4><p>Presença genuína em cada sessão</p></div>
+        <div class="p-info"><h4>Regulação emocional</h4><p>Ferramentas concretas para emoções que transbordam</p></div>
       </div>
       <div class="pillar">
         <span class="p-num">03</span>
-        <div class="p-info"><h4>Ferramentas práticas</h4><p>Técnicas com base científica comprovada</p></div>
+        <div class="p-info"><h4>Reestruturação cognitiva</h4><p>Transformamos pensamentos que limitam e machucam</p></div>
       </div>
       <div class="pillar">
         <span class="p-num">04</span>
-        <div class="p-info"><h4>Processo colaborativo</h4><p>Construímos juntos o caminho para o bem-estar</p></div>
+        <div class="p-info"><h4>Vida que valha a pena</h4><p>Seu objetivo guia cada passo do processo</p></div>
       </div>
     </div>
   </div>
@@ -223,89 +304,153 @@
 <!-- ══ CITAÇÃO ══ -->
 <section id="citacao">
   <blockquote class="fu">
-    "A saúde mental não é um destino, mas uma jornada.
-    E você não precisa trilhá-la sozinho."
-    <cite>— Brenda Alencar</cite>
+    "Na tentativa de passar pela vida sem dor, negamos a oportunidade
+    de mudar aquilo que nos prejudica."
+    <cite>— Jeffrey Young, criador da Terapia do Esquema</cite>
   </blockquote>
+</section>
+
+<!-- ══ FAQ ══ -->
+<section id="faq">
+  <div class="faq-layout">
+    <div>
+      <div style="margin-bottom:2.5rem" class="fu">
+        <div class="eyebrow">Dúvidas frequentes</div>
+        <h2 class="st">Perguntas <em>frequentes</em></h2>
+      </div>
+      <div class="faq-list fu">
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">Como faço para agendar uma consulta?</button>
+      <div class="faq-a">
+        <p>É simples: mande uma mensagem diretamente pelo <a href="https://wa.me/5551982452480?text=Olá%2C+gostaria+de+agendar+uma+consulta." target="_blank" style="color:var(--burgundy);font-weight:500;">WhatsApp</a>. Responderei pessoalmente para conversarmos sobre sua demanda, combinar um horário e esclarecer qualquer dúvida antes da primeira consulta.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">Qual é o valor das sessões?</button>
+      <div class="faq-a">
+        <p>Os valores são informados diretamente pelo WhatsApp, pois podem variar conforme a modalidade (presencial ou online) e as suas possibilidades. Não hesite em perguntar — estou aberta a conversar.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">Como funciona a primeira consulta?</button>
+      <div class="faq-a">
+        <p>A primeira consulta é uma sessão de avaliação onde nos conhecemos, você compartilha o que te trouxe e juntos entendemos como posso ajudar. Não há nenhum compromisso — é um espaço para você sentir se a terapia e a relação terapêutica fazem sentido para você.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">Com que frequência acontecem as sessões?</button>
+      <div class="faq-a">
+        <p>As sessões geralmente acontecem uma vez por semana, com duração de 50 minutos. A frequência pode ser ajustada conforme o andamento do processo e as suas necessidades.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">As sessões são sigilosas?</button>
+      <div class="faq-a">
+        <p>Sim. O sigilo é um princípio ético fundamental da psicologia. Tudo o que é compartilhado nas sessões é absolutamente confidencial, conforme o Código de Ética do Conselho Federal de Psicologia.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">Você atende pelo plano de saúde?</button>
+      <div class="faq-a">
+        <p>Não. Os atendimentos são particulares. Entendo que isso pode ser um limitador, por isso me coloco à disposição para conversarmos sobre valores e possibilidades diretamente pelo WhatsApp.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">Quanto tempo dura o processo terapêutico?</button>
+      <div class="faq-a">
+        <p>Varia de pessoa para pessoa. Alguns objetivos podem ser alcançados em alguns meses; outros processos se estendem por mais tempo. O ritmo é definido juntos, de acordo com o que você precisa e os seus objetivos.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">Como funcionam as sessões online?</button>
+      <div class="faq-a">
+        <p>As sessões online acontecem por videochamada em plataforma segura. A qualidade é a mesma do atendimento presencial — o que você precisa é de um lugar tranquilo, fones de ouvido e uma boa conexão à internet.</p>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="faq-img fu">
+      <img src="assets/images/IMG_6051_web.jpg" alt="Brenda Alencar" />
+    </div>
+  </div>
 </section>
 
 <!-- ══ CONTATO ══ -->
 <section id="contato">
   <div style="margin-bottom:3rem" class="fu">
     <div class="eyebrow">Vamos conversar</div>
-    <h2 class="st">Entre em <em>contato</em></h2>
+    <h2 class="st">Estou pronta para <em>te ouvir</em></h2>
   </div>
-  <div class="contato-grid">
-    <div class="fu">
-      <p class="contato-intro">
-        Dê o primeiro passo. Estou aqui para ouvir você e, juntas,
-        encontrarmos o melhor caminho para o seu bem-estar.
-      </p>
-      <div class="contact-list">
-        <a href="https://wa.me/5551999999999" class="ci" target="_blank">
-          <div class="ci-ico">📱</div>
-          <div class="ci-txt"><strong>WhatsApp</strong><span>(51) 9 9999-9999</span></div>
-        </a>
-        <a href="mailto:contato@seusite.com.br" class="ci">
-          <div class="ci-ico">✉️</div>
-          <div class="ci-txt"><strong>E-mail</strong><span>contato@seusite.com.br</span></div>
-        </a>
-        <a href="https://instagram.com/" class="ci" target="_blank">
-          <div class="ci-ico">📸</div>
-          <div class="ci-txt"><strong>Instagram</strong><span>@dra.analima</span></div>
-        </a>
-        <div class="ci" style="cursor:default">
-          <div class="ci-ico">📍</div>
-          <div class="ci-txt"><strong>Localização</strong><span>Porto Alegre, RS · Online para todo o Brasil</span></div>
-        </div>
+  <p class="contato-intro fu" style="text-align:center;max-width:560px;margin:0 auto 3rem;">
+    Dê o primeiro passo. Estou aqui para ouvir você e, juntos,
+    encontrarmos o melhor caminho para o seu bem-estar.
+  </p>
+  <div class="cards fu" style="max-width:900px;margin:0 auto;">
+    <a href="https://wa.me/5551982452480?text=Olá%2C+gostaria+de+agendar+uma+consulta." class="card" target="_blank" style="text-decoration:none;text-align:center;align-items:center;">
+      <div class="card-ico" style="background:none;padding:0;">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="48" rx="12" fill="#25D366"/>
+          <path fill="white" d="M24 10c-7.732 0-14 6.268-14 14 0 2.49.654 4.823 1.797 6.84L10 38l7.35-1.773A13.94 13.94 0 0024 38c7.732 0 14-6.268 14-14s-6.268-14-14-14zm6.9 19.1c-.287.806-1.687 1.54-2.306 1.594-.619.054-1.198.247-4.037-.84-3.413-1.307-5.594-4.793-5.762-5.016-.168-.222-1.368-1.82-1.368-3.474 0-1.653.866-2.468 1.173-2.804.308-.335.671-.419.895-.419l.641.012c.206.009.482-.078.754.575.287.68.975 2.334 1.06 2.503.084.168.14.365.028.587-.112.222-.168.36-.335.554-.168.195-.352.435-.503.585-.168.168-.343.35-.147.687.196.336.87 1.435 1.868 2.323 1.283 1.144 2.364 1.498 2.7 1.666.336.168.532.14.728-.084.196-.224.84-.98 1.064-1.316.224-.335.448-.279.754-.168.307.112 1.953.922 2.289 1.09.335.168.559.252.643.391.084.14.084.808-.203 1.554z"/>
+        </svg>
       </div>
-    </div>
-    <form class="cform fu" onsubmit="handleForm(event)">
-      <div class="frow">
-        <div class="field">
-          <label>Nome</label>
-          <input type="text" placeholder="Seu nome completo" required />
-        </div>
-        <div class="field">
-          <label>E-mail</label>
-          <input type="email" placeholder="seu@email.com" required />
-        </div>
+      <h3 style="margin-bottom:.4rem;">WhatsApp</h3>
+      <p style="margin:0;">(51) 98245-2480</p>
+    </a>
+    <a href="https://instagram.com/psi.brendaalencar" class="card" target="_blank" style="text-decoration:none;text-align:center;align-items:center;">
+      <div class="card-ico" style="background:none;padding:0;">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="ig1" cx="30%" cy="107%" r="150%">
+              <stop offset="0%" stop-color="#fdf497"/>
+              <stop offset="5%" stop-color="#fdf497"/>
+              <stop offset="45%" stop-color="#fd5949"/>
+              <stop offset="60%" stop-color="#d6249f"/>
+              <stop offset="90%" stop-color="#285AEB"/>
+            </radialGradient>
+          </defs>
+          <rect x="3" y="3" width="42" height="42" rx="13" fill="url(#ig1)"/>
+          <circle cx="24" cy="24" r="9" stroke="white" stroke-width="3" fill="none"/>
+          <circle cx="35" cy="13" r="2.5" fill="white"/>
+        </svg>
       </div>
-      <div class="field">
-        <label>Telefone / WhatsApp</label>
-        <input type="tel" placeholder="(51) 9 9999-9999" />
+      <h3 style="margin-bottom:.4rem;">Instagram</h3>
+      <p style="margin:0;">@psi.brendaalencar</p>
+    </a>
+    <a href="mailto:brendaalencarpsi@gmail.com" class="card" style="text-decoration:none;text-align:center;align-items:center;">
+      <div class="card-ico" style="background:none;padding:0;">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="48" rx="10" fill="#ffffff"/>
+          <path d="M8 14h32v20a2 2 0 01-2 2H10a2 2 0 01-2-2V14z" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+          <path d="M8 14l16 12L40 14" stroke="none" fill="none"/>
+          <path d="M8 14h32L24 27 8 14z" fill="#EA4335"/>
+          <path d="M8 14v20l10-10L8 14z" fill="#FBBC05"/>
+          <path d="M40 14v20L30 24l10-10z" fill="#34A853"/>
+          <path d="M8 34l10-10 6 5 6-5 10 10H8z" fill="#4285F4"/>
+        </svg>
       </div>
-      <div class="field">
-        <label>Modalidade de interesse</label>
-        <select>
-          <option value="">Selecione...</option>
-          <option>Psicoterapia Individual — Presencial</option>
-          <option>Psicoterapia Individual — Online</option>
-          <option>Primeira Consulta</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>Mensagem</label>
-        <textarea placeholder="Conte um pouco sobre o que você está buscando..."></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">
-        Enviar mensagem
-      </button>
-      <p class="fnote">Suas informações são confidenciais e nunca serão compartilhadas.</p>
-    </form>
+      <h3 style="margin-bottom:.4rem;">E-mail</h3>
+      <p style="margin:0;">brendaalencarpsi@gmail.com</p>
+    </a>
   </div>
 </section>
 
 <!-- ══ FOOTER ══ -->
 <footer>
   <span class="f-logo">Brenda Alencar</span>
-  <span>CRP 07/00000 · © 2025 Todos os direitos reservados</span>
+  <span>CRP 07/45657 · © 2026 Todos os direitos reservados</span>
   <div class="f-links">
-    <a href="https://wa.me/5551999999999" target="_blank">WhatsApp</a>
-    <a href="mailto:contato@seusite.com.br">E-mail</a>
-    <a href="https://instagram.com/" target="_blank">Instagram</a>
+    <a href="https://wa.me/5551982452480?text=Olá%2C+gostaria+de+agendar+uma+consulta." target="_blank">WhatsApp</a>
+    <a href="mailto:brendaalencarpsi@gmail.com">E-mail</a>
+    <a href="https://instagram.com/psi.brendaalencar" target="_blank">Instagram</a>
   </div>
 </footer>
+
+<!-- Botão flutuante WhatsApp -->
+<a href="https://wa.me/5551982452480?text=Olá%2C+gostaria+de+agendar+uma+consulta." class="fab-wa" target="_blank" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
 
 <!-- Scripts -->
 <script src="assets/js/main.js"></script>

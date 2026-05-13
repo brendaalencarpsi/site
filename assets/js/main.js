@@ -44,6 +44,24 @@ const fadeObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.fu').forEach(el => fadeObserver.observe(el));
 
+/* ── FAQ ACCORDION ── */
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const answer = btn.nextElementSibling;
+    const isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+    document.querySelectorAll('.faq-q').forEach(b => {
+      b.setAttribute('aria-expanded', 'false');
+      b.nextElementSibling.classList.remove('open');
+    });
+
+    if (!isOpen) {
+      btn.setAttribute('aria-expanded', 'true');
+      answer.classList.add('open');
+    }
+  });
+});
+
 /* ── CONTACT FORM ── */
 function handleForm(e) {
   e.preventDefault();
